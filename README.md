@@ -26,7 +26,8 @@ Every migration is a script that is named by it's order in 4 digits, it's name, 
 For each migration there is a corresponding mygration with "_rollback" appended to it's name. It reverses it's corresponding migration.
 0000_initial_schema_rollback.sql reverses 0000_initial_schema.sql
 
-
+An additional script can be added, with "_test" appended to the migration-name, if a migration needs to be tested
+0000_initial_schema_test.sql, would test 0000_initial_schema.sql
 
 
 ## Part 2: Part 2: Entity Framework Core Migrations
