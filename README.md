@@ -63,4 +63,6 @@ Build succeeded.
 Reverting migration '20241002181352_add_ratings'.
 Reverting migration '20241002174458_add_categories'.
 Done.
-```` 
+```
+
+So all in all: To go up/down in migrations, simply update to the migration representing the state you want
